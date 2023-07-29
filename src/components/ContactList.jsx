@@ -23,7 +23,6 @@ export default function ContactList({ setSelectedContactId }) {
     }
     fetchContacts();
   }, []);
-  console.log("Contacts: ", contacts);
   return (
     <table>
       <thead>
