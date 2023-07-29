@@ -15,6 +15,7 @@ export default function SelectedContact({ selectedContactId }) {
         console.error(error);
       }
     }
+    fetchSelectedContact();
   });
 
   return <div>This is the result</div>;
